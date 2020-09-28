@@ -3,4 +3,43 @@ Description of files in this directory
 inputFiles
 ==========
 
+inputFiles/nh3Exc.nw    - NWChem input file for excitation energy calculation
+inputFiles/nh3Freq.nw   - NWChem input file for normal mode analysis
+inputFiles/nh3Geom.nw   - NWChem geometry optimization
+inputFiles/template.nw  - template NWChem excitation energy input file used to generate numerically
+                             differentiated transition dipole moments needed for TDSPEC
+inputFiles/opa_fc.inp   - TDSPSEC OPA input file for just FC contribution
+inputFiles/opa_full.inp - TDSPEC OPA input file for FC, FC-HT, and HT contributions 
+inputFiles/opa_ht.inp   - TDSPEC OPA input file for just HT contribution
 
+inputFiles/normalModeInput: All td-dft simulations done at displaced coordinates along normal modes
+===========================
+ mode1064.40-m.nw
+ mode1064.40-p.nw
+ mode1676.51-m.nw
+ mode1676.51-p.nw
+ mode1676.51_b-m.nw
+ mode1676.51_b-p.nw
+
+datafile/datafile.data - TDSPEC data file that was created using all of the
+=======================     NWChem simulation data 
+
+outputFiles
+===========
+
+outputFiles/nh3Exc.out      - NWChem output file for excitation energy calculation
+outputFiles/nh3Freq.out     - NWChem output file for normal mode analysis
+outputFiles/nh3Geom.out     - NWChem output file for geometry optimization
+outputFiles/atermonly2.txt  - TDSPEC output for opa_fc.inp job
+outputFiles/full2.txt       - TDSPEC output for opa_full.inp job
+outputFiles/htOnly2.txt     - TDSPEC output for opa_ht.inp job
+
+outputFiles/normalModeOut: output of same named *.nw jobs in inputFiles/normalModeInput
+==========================
+
+mode1064.40-m.out    
+mode1064.40-p.out
+mode1676.51-m.out
+mode1676.51-p.out
+mode1676.51_b-m.out
+mode1676.51_b-p.out

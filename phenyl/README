@@ -1,0 +1,116 @@
+inputFiles:
+===========
+
+inputFiles/phenylExc.nw   - NWChem excitation energy input file
+inputFiles/phenylFreq.nw  - NWChem normal mode analysis input file
+inputFiles/phenylGeom.nw  - NWChem geometry optimization input file
+inputFiles/opa_fc.inp     - TDSPEC OPA input file for FC term
+inputFiles/opa_full.inp   - TDSPEC OPA input file for FC, FC-HT, and HT term
+inputFiles/opa_ht.inp     - TDSPEC OPA input file for HT term
+
+inputFiles/normalModeInput: All NWChem input files needed for differentiation of transition dipole
+=========================== moment displaced along normal mode coordinates
+
+mode1006.59-m.nw
+mode1006.59-p.nw
+mode1016.13-m.nw
+mode1016.13-p.nw
+mode1049.38-m.nw
+mode1049.38-p.nw
+mode1071.14-m.nw
+mode1071.14-p.nw
+mode1174.68-m.nw
+mode1174.68-p.nw
+mode1174.89-m.nw
+mode1174.89-p.nw
+mode1301.19-m.nw
+mode1301.19-p.nw
+mode1323.47-m.nw
+mode1323.47-p.nw
+mode1464.22-m.nw
+mode1464.22-p.nw
+mode1471.12-m.nw
+mode1471.12-p.nw
+mode1569.96-m.nw
+mode1569.96-p.nw
+mode1626.15-m.nw
+mode1626.15-p.nw
+mode399.53-m.nw
+mode399.53-p.nw
+mode423.91-m.nw
+mode423.91-p.nw
+mode598.92-m.nw
+mode598.92-p.nw
+mode618.21-m.nw
+mode618.21-p.nw
+mode673.61-m.nw
+mode673.61-p.nw
+mode720.47-m.nw
+mode720.47-p.nw
+mode815.46-m.nw
+mode815.46-p.nw
+mode897.09-m.nw
+mode897.09-p.nw
+mode977.28-m.nw
+mode977.28-p.nw
+mode992.29-m.nw
+mode992.29-p.nw
+
+datafiles:
+==========
+datafiles/datafile.data - TDSPEC data file used
+
+outputFiles:
+============
+outputFiles/phenylExc.out   - NWChem output file for excitaiton energy
+outputFiles/phenylFreq.out  - NWChem output file for normal mode analysis
+outputFiles/phenylGeom.out  - NWChem output file for geometry optimization
+outputFiles/fc.txt          - TDSPEC OPA output file for FC contribution
+outputFiles/full.txt        - TDSPEC OPA output file for FC, FC-HT, HT contribution
+outputFiles/ht.txt          - TDSPEC OPA output file for HT contribution
+
+outputFiles/normalModeOut: All NWChem output files respective to input files in inputFiles/normalModeInput/
+mode1006.59-m.out
+mode1006.59-p.out
+mode1016.13-m.out
+mode1016.13-p.out
+mode1049.38-m.out
+mode1049.38-p.out
+mode1071.14-m.out
+mode1071.14-p.out
+mode1174.68-m.out
+mode1174.68-p.out
+mode1174.89-m.out
+mode1174.89-p.out
+mode1301.19-m.out
+mode1301.19-p.out
+mode1323.47-m.out
+mode1323.47-p.out
+mode1464.22-m.out
+mode1464.22-p.out
+mode1471.12-m.out
+mode1471.12-p.out
+mode1569.96-m.out
+mode1569.96-p.out
+mode1626.15-m.out
+mode1626.15-p.out
+mode399.53-m.out
+mode399.53-p.out
+mode423.91-m.out
+mode423.91-p.out
+mode598.92-m.out
+mode598.92-p.out
+mode618.21-m.out
+mode618.21-p.out
+mode673.61-m.out
+mode673.61-p.out
+mode720.47-m.out
+mode720.47-p.out
+mode815.46-m.out
+mode815.46-p.out
+mode897.09-m.out
+mode897.09-p.out
+mode977.28-m.out
+mode977.28-p.out
+mode992.29-m.out
+mode992.29-p.out
