@@ -1,0 +1,11 @@
+Runtype Abs
+Freq 437.76
+Gamma2 0.0
+Shift 0.000
+Datafile datafile.data
+Width 10.0
+Intensity No
+HerzTell No
+ATermOff No
+NABSpts 1000
+End
