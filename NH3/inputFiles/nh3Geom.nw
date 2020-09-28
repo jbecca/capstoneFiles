@@ -1,0 +1,22 @@
+echo
+start
+
+memory stack 500 heap 1000 global 1000 mb
+
+geometry
+N         -0.28268        1.08188        0.00000
+H          0.73732        1.08188        0.00000
+H         -0.62268        1.87390        0.54544
+H         -0.62268        0.21351        0.41319
+symmetry c1
+end
+
+basis spherical
+ * library "cc-pvtz"
+end
+
+dft
+ iterations 500
+ xc b3lyp
+end
+task dft optimize

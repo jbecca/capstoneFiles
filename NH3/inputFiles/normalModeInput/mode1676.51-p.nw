@@ -1,0 +1,34 @@
+echo
+start
+
+memory stack 500 mb heap 500 mb global 1000 mb
+
+title "None"
+
+geometry
+N    -0.03874998    0.00883629   -0.10837237
+H     0.97384779    0.00224873   -0.05746859
+H    -0.35170488    0.77867455    0.47204111
+H    -0.34901141   -0.84412720    0.34325916
+symmetry c1
+end
+
+basis spherical
+ * library "cc-pVTZ"
+end
+
+driver
+ maxiter 100
+end
+
+dft
+ iterations 500
+ xc b3lyp
+end
+
+tddft
+ nroots 4
+ notriplet
+end
+
+task tddft energy
